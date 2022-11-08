@@ -6,9 +6,11 @@
 /*   By: leduarte <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 15:01:09 by leduarte          #+#    #+#             */
-/*   Updated: 2022/11/03 15:09:59 by leduarte         ###   ########.fr       */
+/*   Updated: 2022/11/08 13:42:49 by leduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_tolower(int c)
 {
@@ -17,3 +19,10 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
+
+int main(void)
+{
+	int c = 'a';
+	printf("%d\n", ft_tolower(c));
+}
+int main();
